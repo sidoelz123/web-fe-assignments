@@ -167,9 +167,9 @@ selanjutnya untuk menggunakan git/github kita harus melakukan dengan beberapa st
 
 - `git commit -m "first commit"`Digunakan untuk menyimpan perubahan yang ada namun masih pada local repository, pada remote repository belum update
 
-- `git remote ...` Merupakan command untuk mengkoneksikan atau menghubungkan repository local ke repository server lain (in this case menggunakan server git hub)
-
 - `git branch -b [nama branch]` Merupakan command untuk mengganti nama branch tertentu
+
+- `git remote ...` Merupakan command untuk mengkoneksikan atau menghubungkan repository local ke repository server lain (in this case menggunakan server git hub)
 
 - `git push -u origin master/main` Merupakan langkah terakhir untuk kita dapat push atau mengirimkan perubahan pada repository lokal kita ke remote repository
 
