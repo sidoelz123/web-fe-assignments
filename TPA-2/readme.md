@@ -1,7 +1,16 @@
-# Web Development Basic Stage
+# Body Mass Index Calculator
+## Build with Project
+- [HTML]
+- [CSS]
+- [Javascript]
 
-## Technical Project Assignment (TPA) #2 - BMI Calculator
+## Link deploy
 
+<a href="[BMI-Calculator](https://tpa2-ijaa.netlify.app)">
+<img alt="Netlify" src="https://img.shields.io/netlify/56c88208-4380-4cb0-9907-997b375df140?color=blue&label=Netlify&logo=netlify">
+</a>
+
+## Detail Project
 ### Specs
 
 1. Buatlah aplikasi website untuk menghitung Body Mass Index (BMI) berdasarkan standar yang telah ditetapkan.
@@ -36,3 +45,5 @@ Penilaian akan dilakukan dari beberapa hal:
 3. Tampilan dan output sesuai dengan **Expected Result**
 4. Kemampuan peserta menggunakan Git & GitHub
 5. Kemampuan peserta dalam mendeploy aplikasi website
+
+_Created by Ihza Maulana Zakiya_
