@@ -6,10 +6,12 @@
 
 ## Link deploy
 
-<a href="[BMI-Calculator](https://tpa2-ijaa.netlify.app)">
-<img alt="Netlify" src="https://img.shields.io/netlify/56c88208-4380-4cb0-9907-997b375df140?color=blue&label=Netlify&logo=netlify">
-</a>
+|deploy|link|
+|----|----|
+|<a href="https://tpa2-ijaa.netlify.app"> <img alt="Netlify" src="https://img.shields.io/netlify/56c88208-4380-4cb0-9907-997b375df140?color=blue&label=Netlify&logo=netlify"> </a>|[Klik Disini](https://tpa2-ijaa.netlify.app)
 
+
+ 
 ## Detail Project
 ### Specs
 
