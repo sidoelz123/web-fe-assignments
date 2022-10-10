@@ -431,11 +431,13 @@ body {
     .typist {
         min-height: 4rem;
     }
+    
 }
 @media (min-width: 768px) {
     .typist {
         min-height: 2.5rem;
     }
+    
 }
 #stars {
     -webkit-animation: animStar 50s linear infinite;
@@ -523,6 +525,7 @@ body {
     .display-1 {
         font-size: 6.02782rem;
     }
+   
 }
 @keyframes animation-16jpnkj {
     0% {
