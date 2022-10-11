@@ -1,0 +1,46 @@
+@import url("./main.css");
+*{
+    border: 2px solid red;
+}
+.heading{
+    margin-bottom: 1rem;
+}
+.sub-heading{
+    max-width: 28rem;
+    margin-bottom: 3rem;
+}
+.blog-content{
+    list-style: none;
+}
+.rows{
+    display:flex;
+    justify-content: space-between;
+    margin:1rem 0;
+}
+.date-content{
+    margin-top: 2rem;
+}  
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media (max-width: 1024px){
+    .date-content{
+        margin-top: 0.5rem;
+    }
+    .rows{
+        flex-direction: column;
+       }
+       
+} */
+
+

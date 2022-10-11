@@ -1,0 +1,13 @@
+@import url("./main.css");
+
+.img-profile {
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-hori: 
+
+}

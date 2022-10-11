@@ -2,6 +2,17 @@
 
 ## Technical Project Assignment (TPA) #1 - Personal Website
 
+## Build with Project
+- **HTML**
+- **CSS**
+
+## Link deploy
+
+|link deploy|
+|----|
+|<a href="https://tpa-1-portfolio.netlify.app/"> <img alt="Netlify" src="https://img.shields.io/netlify/56c88208-4380-4cb0-9907-997b375df140?color=blue&label=Netlify&logo=netlify"> </a>
+
+## About Project
 ### Specs
 
 - Buatlah website personal menggunakan **HTML** dan **CSS**
