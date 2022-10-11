@@ -14,22 +14,23 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    /* border: 2px solid red; */
 }
 
 /* navbar */
 nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content:space-between;
     padding : 20px 50px;
     background-color: white;
     color: var(--text-primary);
-    
+
 }
 
 .nav-menu{
-    display: flex;
     list-style: none;
+    display: flex;
     justify-content: center;
 }
 
@@ -40,7 +41,7 @@ nav{
 }
 
 .nav-link:hover {
-    color: red;
+    color: #2B6BB1;
   }
 
 .logo{
@@ -52,11 +53,16 @@ nav{
 }
 
 .active{
-    color: red;
+    color: #2B6BB1;
 }
 
 
 
+.heading{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-left: 1.5rem
+}
 
 body{
     font-family: 'JetBrains Mono', monospace;
