@@ -12,9 +12,8 @@
   }
 .hero{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
-    /* border: ; */
     border-radius:10px;
     align-items: center;
     box-shadow: 0 0 6px 1px #2B6BB1;
