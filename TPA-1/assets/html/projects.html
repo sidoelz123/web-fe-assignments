@@ -1,29 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portofolio</title>
-    <link rel="stylesheet" href="../css/project.css">
-</head>
-<body>
-    <header>   
-        <nav>
-            <div class="logo">
-                <img src="../Img/engineer.ico" alt="logo" srcset="" height="40px">
-                <h3>Jadoel</h3>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="../../index.html" class="nav-link">Home</a></li>
-                <li><a href="./about.html" class="nav-link">About</a></li>
-                <li><a href="./projects.html" class="nav-link active">Projects</a></li>
-                <li><a href="./blog.html" class="nav-link">Blog</a></li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="../css/project.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="../Img/engineer.ico" alt="logo" srcset="" height="40px" />
+          <h3>Jadoel</h3>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="../../index.html" class="nav-link">Home</a></li>
+          <li><a href="./about.html" class="nav-link">About</a></li>
+          <li>
+            <a href="./projects.html" class="nav-link active">Projects</a>
+          </li>
+          <li><a href="./blog.html" class="nav-link">Blog</a></li>
+        </ul>
+      </nav>
     </header>
-    <section>
-
-    </section>
-</body>
+    <main>
+      <section class="projects">
+        <div>
+          <h1 class="heading">Projects</h1>
+          <p class="sub-heading">
+            Front-End Web development projects and other projects
+          </p>
+        </div>
+        <div>
+            <ul class="cards">
+                <li>
+                  <a href="" class="card">
+                    <img src="/assets/Img/Resik.png" class="card__image" alt="" />
+                    <div class="card__overlay">
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="../Img/profile-ijaa.png"><path /></svg>                     
+                        <img class="card__thumb" src="../Img/profile-ijaa.png" alt="" />
+                        <div class="card__header-text">
+                          <h3 class="card__title">Resik Project</h3>
+                          <span class="card__tagline">Bootstrap, HTML, CSS</span>             
+                          <span class="card__status">12 Mei 2021</span>
+                        </div>
+                      </div>
+                      <p class="card__description"> RESIK atau Recycle Sampah Apik merupakan suatu website yang membantu masyarakat untuk menangani sampah </p>
+                    </div>
+                  </a>      
+                </li>
+                <li>
+                  <a href="" class="card">
+                    <img src="../Img/bmi-calc.png" class="card__image" alt="" />
+                    <div class="card__overlay">        
+                      <div class="card__header">
+                        <svg class="card__arc" xmlns="../Img/profile-ijaa.png"><path /></svg>                 
+                        <img class="card__thumb" src="../Img/profile-ijaa.png" alt="" />
+                        <div class="card__header-text">
+                          <h3 class="card__title">BMI Calculator</h3>
+                          <span class="card__tagline">HTML, CSS, JavaScript</span>  
+                          <span class="card__status">09 October 2022</span>
+                        </div>
+                      </div>
+                      <p class="card__description">Cek berat badan ideal dengan kalkulator BMI. Dapat digunakan untuk memeriksa massa tubuh seseorang</p>
+                    </div>
+                  </a>
+                </li> 
+              </ul>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
+

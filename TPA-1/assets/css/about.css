@@ -12,15 +12,14 @@
   }
 .hero{
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    border-radius:10px;
+    justify-content: space-between;
     align-items: center;
-    box-shadow: 0 0 6px 1px #2B6BB1;
+    padding:0 2em 3rem 2em;
+    
 }
 .content{
-    max-width: 28rem;
-    margin: 0 1.5rem
+    max-width: 30rem;
+    margin: 0 1rem;
 }
 
 .intro{

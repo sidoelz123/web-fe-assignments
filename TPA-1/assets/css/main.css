@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap');
 
 :root{
+    --surface-color: #1E2128;
+    --curve: 40;
     --text-primary: #1E2128;
     --text-secondary: #959595;
+    --text-card:#E5E7EB;
     --white: #ffffff;
     --gray: #E5E7EB;
+    --blue: #2B6BB1;
 
 
 }
@@ -14,7 +18,8 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    /* border: 2px solid red; */
+    box-sizing: border-box;
+    
 }
 
 /* navbar */
@@ -41,7 +46,7 @@ nav{
 }
 
 .nav-link:hover {
-    color: #2B6BB1;
+    color: var(--blue);
   }
 
 .logo{
@@ -53,27 +58,40 @@ nav{
 }
 
 .active{
-    color: #2B6BB1;
+    color: var(--blue);
 }
 
 
 
 .heading{
-    margin-bottom: 1rem;
     font-size: 2rem;
-    margin-left: 1.5rem
+    margin: 2rem 3rem 1rem 3rem ;
+}
+
+
+
+.sub-heading{
+    max-width: 28rem;
+    margin: 0 3rem;
 }
 
 body{
     font-family: 'JetBrains Mono', monospace;
-    background-color: var(--gray);
+    background-color: white;
 }
 
 main {
     padding: 1rem 8rem;
     margin-top: 4rem;
+    
 }
-
+section{
+    padding: 20px;
+    border-radius:10px;
+    box-shadow: 0 0 6px 1px var(--blue);
+    background-color: whitesmoke;
+    
+}
 
 /* sm */
 @media (max-width: 640px) {
