@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap');
+:root{
+    --surface-color: #E5E7EB;
+    --curve: 40;
+    --text-primary: #1E2128;
+    --text-secondary: #959595;
+    --text-card: #1E2128;
+    --white: #ffffff;
+    --gray: #E5E7EB;
+    --blue: #2B6BB1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: none;
+    
+}
+
+body{
+  font-family: 'JetBrains Mono', monospace;
+  background-color: white;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding : 20px 50px;
+  background-color: white;
+  color: var(--text-primary);
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo > h3 {
+  margin:0 1em;
+}
+
+.search{
+  background-color: transparent;
+  border: 2px solid var(--text-primary);
+  border-color: var(--blue);
+  padding:0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  color:var(--text-primary);
+  font-family: inherit;
+}
+
+.search:focus{
+  outline:0;
+  background-color: whitesmoke;
+  box-shadow: 0 0 6px 1px var(--blue); 
+}
+
+.search::placeholder{
+  color: var(--text-primary);
+}
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 10%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+.embed.hide{
+  display: none;
+}
+
+.embed.show{
+  display: inline-block;
+}
+
+.arrow{
+  position: absolute;
+  font-size: 40px;
+}
+
+.arrow.left-arrow{
+  top:50%;
+  left:5%;
+  transform: translateY(-50%);
+}
+
+
+.arrow.right-arrow{
+top:50%;
+transform: translateY(-50%);
+right:5%;
+}
+
+.dots{
+margin-top: 30px;
+}
+
+.dots .dot {
+padding: 5px 15px;
+border-radius: 50%;
+border: 5px solid var(--secondary-color);
+color: white;
+font-size: 20px;
+font-weight: 600;
+margin: 5px;
+}
+
+.dots .dot.active{
+border-color: red;
+}
+
+#tags{
+  width:50%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.tag{
+  color:white;
+  padding:10px 20px;
+  background-color: var(--blue);
+  box-shadow: 0 0 6px 1px var(--blue);
+  border-radius: 10px;
+  margin:5px;
+  display:inline-block;
+  cursor: pointer;
+  
+}
+
+.tag.highlight{
+  background-color: red;
+
+}
+.no-results{
+  color:white;
+}
+
+
+.main{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: block;
+  height: 100%;  
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 0 6px 1px var(--blue);
+  border: 2px solid white;
+}
+
+.card__image {      
+  width: 100%;
+  height: auto;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: calc(var(--curve) * 1px);    
+  background-color: var(--surface-color);      
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(var(--curve) * 1px) 0 0 0;    
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
+}
+
+.card__arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;      
+  z-index: 1;
+}
+
+.card__arc path {
+  fill: var(--surface-color);
+}       
+
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;      
+  border-radius: 50%;      
+}
+
+.card__title {
+  font-size: 1em;
+  margin: 0 0 .3em;
+  color: var(--text-card);
+}
+
+.card__tagline {
+  display: block;
+  margin: 0.5em 0;
+  font-size: .8em; 
+  color: var(--text-card);  
+}
+
+.card__status {
+  font-size: .8em;
+  color: var(--text-card);
+}
+
+.card__description {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: var(--text-card); 
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}    
+
+.pagination{
+  display:flex;
+  margin:10px 30px;
+  align-items: center;
+  justify-content: center;
+  color:var(--blue);
+}
+
+.page{
+  padding:20px;
+  cursor:pointer;
+}
+
+.page.disabled{
+  cursor:not-allowed;
+  visibility: hidden;
+
+}
+
+.current{
+  padding: 10px 20px;
+  border-radius: 30%;
+  border: 5px solid var(--blue);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+/* @media only screen and (max-widht: 680px) { */
+@media only screen and (max-width: 1024px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+  nav{
+    padding: 1rem 0;
+    flex-direction: column;
+  }
+  
+  .logo {
+    padding: 1em 0;
+  }
+
+  #tags{
+    width:100%;
+  }
+  .embed.show{
+    width: 20%;
+    height: 20%;
+  }
+}
