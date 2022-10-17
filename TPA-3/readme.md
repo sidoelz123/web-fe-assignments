@@ -11,7 +11,7 @@
 
 |link deploy|
 |----|
-|<a href="#"> <img alt="Netlify" src="https://img.shields.io/netlify/56c88208-4380-4cb0-9907-997b375df140?color=blue&label=Netlify&logo=netlify"> </a>
+|<a href="tpa-3-movieapp.netlify.app"> <img alt="Netlify" src="https://img.shields.io/netlify/56c88208-4380-4cb0-9907-997b375df140?color=blue&label=Netlify&logo=netlify"> </a>
 
 ## About Project
 
