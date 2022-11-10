@@ -12,20 +12,20 @@ function Home() {
 
           <div className='stars'></div>
             <div className='personal'>
-                <h3>{homeConfig.greeting}</h3>
-                <h1><strong>{homeConfig.name}</strong></h1>
+                <h2>{homeConfig.greeting}</h2>
+                <h1 className='fullname'><strong>{homeConfig.name}</strong></h1>
                 <div className="message">{homeConfig.message}</div>
-                <div className='container'>
-                  <Link to={"https://github.com/sidoelz123"}><i className="fab fa-github fa-3x socialicons"></i></Link>
-                  <Link to={"https://www.instagram.com/ijaa212"}><i className="fab fa-instagram fa-3x socialicons"></i></Link>
-                  <Link to={"https://www.linkedin.com/in/ihza-maulana-zakiya-11b326222"}><i className="fab fa-linkedin fa-3x socialicons"></i></Link>
+                <div className='icons'>
+                  <Link to={"https://github.com/sidoelz123"}><i className="fab fa-github socialicons"></i></Link>
+                  <Link to={"https://www.instagram.com/ijaa212"}><i className="fab fa-instagram socialicons"></i></Link>
+                  <Link to={"https://www.linkedin.com/in/ihza-maulana-zakiya-11b326222"}><i className="fab fa-linkedin socialicons"></i></Link>
                 </div>
                 <div>
-                  <Link to={"/about"} className='btn btn-home'>About</Link>
-                  <Link to={"/project"} className='btn btn-home'>Projects</Link>
-                  <Link to={"/blog"} className='btn btn-home'>Blog</Link>
+                  <Link to={"/about"} className='btn btn-home btn-lg' >About</Link>
+                  <Link to={"/project"} className='btn btn-home btn-lg' style={{margin:"0 1rem"}}>Projects</Link>
+                  <Link to={"/blog"} className='btn btn-home btn-lg' >Blog</Link>
                 </div>
-                <Link to={"#"} className='btn btn-cv'>Download CV</Link>
+                <Link to={"#"} className='btn btn-home btn-cv btn-lg' >Download CV</Link>
             </div>
       </div>
     </>

@@ -35,7 +35,7 @@
 .fa-twitter:before {
     content: "\f099";
 }
-/* @font-face {
+@font-face {
     font-family: "Font Awesome 5 Brands";
     font-style: normal;
     font-weight: normal;
@@ -44,7 +44,7 @@
 }
 .fab {
     font-family: "Font Awesome 5 Brands";
-} */
+}
 
 
 :root {

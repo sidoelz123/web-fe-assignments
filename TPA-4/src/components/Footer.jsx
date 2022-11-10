@@ -5,8 +5,9 @@ function Footer({route}) {
     <>
     {route == "/" ? null : (
       <footer>
-          Diciptakan dengan ☕ dan 💟 oleh: <br />
-          Ihza MZ
+        <p style={{textAlign:"center"}}>
+          Build with ☕ dan 💟 by Ihza Maulana Zakiya 
+        </p>  
       </footer>
       )}
     </>

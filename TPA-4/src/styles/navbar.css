@@ -1,7 +1,4 @@
 /* navbar */
-*{
-    border: 2px solid red
-}
 
 nav{
     display: flex;
