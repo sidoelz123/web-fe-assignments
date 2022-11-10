@@ -372,23 +372,6 @@ h1 {
 .btn-home:focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
-.btn-home.disabled,
-.btn-home:disabled {
-  color: #f8f9fa;
-  background-color: transparent;
-}
-.btn-home:not(:disabled):not(.disabled).active,
-.btn-home:not(:disabled):not(.disabled):active,
-.show > .btn-home.dropdown-toggle {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
-.btn-home:not(:disabled):not(.disabled).active:focus,
-.btn-home:not(:disabled):not(.disabled):active:focus,
-.show > .btn-home.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
-}
 
 .btn-cv {
   margin-top: 1rem;
