@@ -53,7 +53,7 @@ const projects=[
     imgProject: imgProject,
     title:"BMI Calculator",
     desc:" Cek berat badan ideal dengan kalkulator BMI. Dapat digunakan untuk memeriksa massa tubuh seseorang",
-    link:"#",
+    link:"https://tpa2-ijaa.netlify.app",
     tags:["HTML", "CSS"],
   },
   {
@@ -67,7 +67,7 @@ const projects=[
     imgProject:imgProject3,
     title:"Movie Apps",
     desc:"Aplikasi Daftar Movie",
-    link:"#",
+    link:"https://tpa-3-movieapp.netlify.app",
     tags:["HTML", "CSS", "Javascript"],
   },
 ]
