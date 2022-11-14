@@ -1,0 +1,38 @@
+.img-profile {
+    max-inline-size: 100%;
+    block-size: auto;
+    border-radius:10px;
+    margin: 20px;
+    width: 20rem;
+}
+.img-profile:hover {
+    box-shadow: 0 0 4px 2px #2B6BB1;
+  }
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2em 3rem 2em;
+    
+}
+.content{
+    max-width: 30rem;
+    margin: 0 1rem;
+}
+
+.intro{
+    text-align: justify;
+    text-justify: auto;
+    margin-top:1vh;
+    font: inherit;
+
+}
+
+@media (max-width: 768px) {
+    .img-profile{
+        width: 10rem;
+    }
+    .hero{
+        flex-direction: column-reverse;
+    }
+}

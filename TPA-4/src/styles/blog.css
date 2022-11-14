@@ -1,0 +1,44 @@
+
+
+.blog-content{
+    list-style: none;
+    
+}
+
+.rows{
+    padding: 5px 20px;
+    display:flex;
+    color: var(--text-primary);
+    justify-content: space-between;
+    border: 2px solid ;
+    /* -webkit-box-shadow:0 0 6px 5px var(--blue); */
+    /* -moz-box-shadow:0 0 6px  5px var(--blue); */
+   
+    
+}
+
+.rows:hover{
+    background-color: antiquewhite;
+    box-shadow:5px 5px 1px 1px var(--blue);
+}
+
+.cardContent{
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+}
+
+.cardContent:hover{
+    background-color: whitesmoke;
+    color: var(--blue);
+}
+
+h3:hover{
+    color: var(--blue);
+}
+
+.date-content{
+    margin-top: 2rem;
+}  
+
+

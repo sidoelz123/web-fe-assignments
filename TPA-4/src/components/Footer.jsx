@@ -4,10 +4,8 @@ function Footer({route}) {
   return (
     <>
     {route == "/" ? null : (
-      <footer>
-        <p style={{textAlign:"center"}}>
-          Build with ☕ dan 💟 by Ihza Maulana Zakiya 
-        </p>  
+      <footer style={{textAlign:"center", padding:"2rem 0"}}>
+        <p>Build with ☕ and 🚬 by Ihza Maulana Zakiya</p>
       </footer>
       )}
     </>

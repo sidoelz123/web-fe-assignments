@@ -13,6 +13,7 @@
 
 }
 
+
 /* RESET STYLE */
 *{
     margin: 0;
@@ -26,7 +27,7 @@ body{
     background-color: white;
 }
 
-main {
+.main {
     padding: 1rem 8rem;
     margin-top: 4rem;
     
@@ -35,14 +36,29 @@ section{
     padding: 20px;
     border-radius:10px;
     box-shadow: 0 0 6px 1px var(--blue);
-    background-color: whitesmoke;
-    
+    background-color: whitesmoke;  
 }
+
+.heading,
+.sub-heading{
+    margin: 0 2rem;
+}
+.sub-heading{
+    margin-bottom: 1rem;
+}
+
 
 /* sm */
 @media (max-width: 640px) {
+   nav{
+    flex-direction: column;
+    align-items: center;
+   }
+   .logo{
+    margin-bottom: 1em;
+   }
 
-   main{
+   .main{
        padding:1rem;
     }
     
@@ -50,11 +66,26 @@ section{
 
 /* md */
 @media (max-width: 768px) {
+    .nav-link {
+        position: static;
+        flex-direction: row;
+        height: 100%;
+    }
+    
     
 }
 
 /* lg */
 @media (max-width: 1024px) {
+    nav {
+        padding: 1rem 148px;
+      }
+    .date-content{
+        margin-top: 0.5rem;
+    }
+    .rows{
+        flex-direction: column;
+       }
     
 }
 

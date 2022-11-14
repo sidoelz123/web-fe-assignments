@@ -1,4 +1,4 @@
-@import url("./main.css");
+
 
 .cards {
   display: grid;
@@ -11,9 +11,9 @@
 
 .card {
   position: relative;
+  border: 2px solid red;
   display: block;
-  width: 400px;
-  height: 400px;  
+  height: 700px;  
   border-radius: calc(var(--curve) * 1px);
   overflow: hidden;
   text-decoration: none;
@@ -22,7 +22,6 @@
 
 .card__image {      
   width: 100%;
-  height: auto;
 }
 
 .card__overlay {
@@ -42,7 +41,7 @@
 }
 
 .card__header {
-  position: relative;
+  position: static;
   display: flex;
   align-items: center;
   gap: 2em;
@@ -70,37 +69,27 @@
   transform: translateY(0);
 }
 
-.card__thumb {
-  flex-shrink: 0;
-  width: 50px;
-  height: 50px;      
-  border-radius: 50%;      
-}
-
 .card__title {
   font-size: 1em;
   margin: 0 0 .3em;
   color: white;
 }
 
-.card__tagline {
-  display: block;
-  margin: 1em 0;
-  font-size: .8em; 
-  color: var(--text-card);  
+.card__tags{
+  display: flex;
 }
 
-.card__status {
-  font-size: .8em;
-  color: var(--text-card);
+.card__tag {
+  background-color:   var(--blue);
+  margin: 1em 0;
+  padding: 2px 5px;
+  margin-right: 0.5em ;
+  font-size: .8em; 
+  color: var(--text-card);  
 }
 
 .card__description {
   padding: 0 2em 2em;
   margin: 0;
   color: var(--text-card); 
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
 }    
