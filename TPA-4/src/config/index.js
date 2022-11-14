@@ -1,4 +1,4 @@
-import {imgProfile, reactLogo,imgProject, imgProject2} from "./images"
+import {imgProfile,imgProject, imgProject2,imgProject3} from "./images"
 
 const home = {
   greeting: "Hello, my name is",
@@ -19,7 +19,7 @@ const home = {
 };
 
 const about = {
-  imgProfile: '/src/assets/ijaa.jpeg',
+  imgProfile:imgProfile,
   intro:"I'm a descrmatics student at Politeknik Harapan Bersama Tegal. In my free time, I study front-end development with React. My goal is to write useful apps and contribute to open source projects while working a part-time job.",
   message:"I made this website to learn what actually goes into web development. From planning, design, development, launch, and maintenance. For sure there are other things that I have yet to encounter, and Im ready to learn them. This also serves a motivation for me to continue making projects because now I finally have a place to showcase them"
 }
@@ -64,11 +64,11 @@ const projects=[
     tags:["Bootstrap", "HTML", "CSS"],
   },
   {
-    imgProject:"#",
-    title:"To Do List",
-    desc:"Aplikasi yang berguna untuk mencatat semua daftar tugas maupun kegiatan yang akan dilakukan",
+    imgProject:imgProject3,
+    title:"Movie Apps",
+    desc:"Aplikasi Daftar Movie",
     link:"#",
-    tags:["Reactjs", "HTML", "CSS", "Redux"],
+    tags:["HTML", "CSS", "Javascript"],
   },
 ]
 
