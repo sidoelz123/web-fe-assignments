@@ -10,10 +10,10 @@ ini adalah Repo untuk Study Independent Skilvull dengan Role Front-end Web
 |week 2||[klik disini](week-2/Readme.md)|
 |week 3||[klik disini](week-3/readme.md)|
 |week 4||[klik disini](week-4/readme.md)|
-|TPA 1|Personal Web|[klik disini](TPA-1/README.md)|
-|TPA 2|BMI Calculator|[klik disini](TPA-2/readme.md)|
-|TPA 3|Movie App|[klik disini](TPA-3/readme.md)|
-|TPA 4|Personal Web with Reactjs|[klik disini](TPA-4/README.md)|
+|TPA 1|Personal Web|[klik disini](TPA-1/)|
+|TPA 2|BMI Calculator|[klik disini](TPA-2/)|
+|TPA 3|Movie App|[klik disini](TPA-3/)|
+|TPA 4|Personal Web with Reactjs|[klik disini](TPA-4/)|
 |TPA 5|To Do List with React Redux|[klik disini](TPA-5)|
 |week 6||[klik disini](week-6/readme.md)|
 |week 7||[klik disini]()|
