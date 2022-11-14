@@ -4,19 +4,21 @@ ini adalah Repo untuk Study Independent Skilvull dengan Role Front-end Web
 
 ## table of contents
 
-|Name|Link|
-|----|----|
-|week 1 | [klik disini](week-1/readme.md)|
-|week 2|[klik disini](week-2/Readme.md)|
-|week 3|[klik disini](week-3/readme.md)|
-|week 4|[klik disini](week-4/readme.md)|
-|TPA 1|[klik disini](TPA-1/README.md)|
-|TPA 2|[klik disini](TPA-2/readme.md)|
-|TPA 3|[klik disini](TPA-3/readme.md)|
-|week 6|[klik disini](week-6/readme.md)|
-|week 7|[klik disini]()|
-|week 8|[klik disini]()|
-|week 9|[klik disini]()|
+|Name|Keterangan|Link|
+|----|----------|----|
+|week 1||[klik disini](week-1/readme.md)|
+|week 2||[klik disini](week-2/Readme.md)|
+|week 3||[klik disini](week-3/readme.md)|
+|week 4||[klik disini](week-4/readme.md)|
+|TPA 1|Personal Web|[klik disini](TPA-1/README.md)|
+|TPA 2|BMI Calculator|[klik disini](TPA-2/readme.md)|
+|TPA 3|Movie App|[klik disini](TPA-3/readme.md)|
+|TPA 4|Personal Web with Reactjs|[klik disini](TPA-4/README.md)|
+|TPA 5|To Do List with React Redux|[klik disini](TPA-5)|
+|week 6||[klik disini](week-6/readme.md)|
+|week 7||[klik disini]()|
+|week 8||[klik disini]()|
+|week 9||[klik disini]()|
 
 
 ## Resource
