@@ -1,13 +1,11 @@
 import React from 'react'
 import { about } from '../config'
 import '../styles/about.css'
-// import logo from '../assets/profile-ijaa.png'
+
 
 export default function About() {
-  // const logo = require('../assets/profile-ijaa.png')
   return (
     <div className='main'>
-      {/* {console.log(logo)} */}
       <section>
           <h1 className="heading">About me</h1>
           <p className="sub-heading"></p>
@@ -23,7 +21,6 @@ export default function About() {
                   </div>
               </div>
               <div>
-                  {/* <img className="img-profile" src= /> */}
                   <img src={about.imgProfile} className="img-profile" />
               </div>
           </div>

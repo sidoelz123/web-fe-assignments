@@ -16,26 +16,6 @@ export default function Project() {
 
         <div>
           <ul className="cards">
-            {/* {projects.map((project, index) => (
-              <li key={`project-${index}`}>
-                <a href={project.link} className="card">
-                <img src={imgProject} className="card__image" alt="" />
-                  <div className="card">
-                    <div className="card__header">
-                      <div className="card__header-text">
-                        <h3 className="card__title">{project.title}</h3>
-                        <span className="card__status">{project.date}</span>
-                        { project.tags.map((tag,id) => (
-                        <span key={id } className="card__tagline">{tag}</span> 
-                        ))}
-                      </div>
-                    </div>
-                    <p className="card__description">{project.desc}</p>
-                  </div>
-                </a>
-              </li>
-            ))} */}
-
             {projects.map((project, index) => (
             <li key={`project-${index}`}>
               <a href={project.link} className="card">
