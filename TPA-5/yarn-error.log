@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install
+
+PATH: 
+  /usr/share/archcraft/scripts:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.1.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/home/ijaa76/.cache/yarn/v6/npm-esbuild-linux-64-0.15.15-11a430a86403b0411ca0a355b891f1cb8c4c4ec6-integrity/node_modules/esbuild-linux-64/.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "mytodolist",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.24",
+      "@types/react-dom": "^18.0.8",
+      "@vitejs/plugin-react": "^2.2.0",
+      "vite": "^3.2.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
