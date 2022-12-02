@@ -16,9 +16,8 @@ ini adalah Repo untuk Study Independent Skilvull dengan Role Front-end Web
 |TPA 4|Personal Web with Reactjs|[klik disini](TPA-4/)|
 |TPA 5|To Do List with React Redux|[klik disini](TPA-5)|
 |week 6||[klik disini](week-6/readme.md)|
-|week 7||[klik disini]()|
-|week 8||[klik disini]()|
-|week 9||[klik disini]()|
+|week 7||[klik disini](week-7/readme.md)|
+|week 8||[klik disini](week-8/readme.md)|
 
 
 ## Resource
