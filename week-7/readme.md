@@ -1,6 +1,4 @@
-# Writing Week 6
-
-## React Lanjutan
+# React Lanjutan
 
 ### PropTypes
 
