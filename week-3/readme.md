@@ -1,4 +1,4 @@
-# Day 1 | Array
+# Array
 
 ## **Pengertian**
 
